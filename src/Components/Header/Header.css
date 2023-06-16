@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+.header {
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(purple, white);
+  font-family: "Kablammo", cursive;
+  font-size: 5vw;
+  padding-bottom: 15px;
+  text-shadow: 2px 2px rgb(222, 222, 49);
+  box-shadow: 0px 5px 5px rgb(10, 235, 138), 3px 3px yellow;
+  color: rgb(63, 8, 102);
+  z-index: 100;
+}
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 5vw;
+    letter-spacing: 1.8px;
+  }
+}
